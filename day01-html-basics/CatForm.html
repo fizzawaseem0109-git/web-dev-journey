@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <title>CatPhotoApp</title>
+  </head>
+  <body>
+    <main>
+        <section>
+            <!--form-->
+            <h2>Cat Form</h2>
+            <form action="https://freecatphotoapp.com/submit-cat-photo"> 
+
+               <fieldset><!--The fieldset element is used to group related inputs and labels together in a web form. fieldset elements are block-level elements, meaning that they appear on a new line.-->
+                    <legend>Is your cat an indoor or outdoor cat?</legend> <!--The legend element acts as a caption for the content in the fieldset element-->
+                      <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label><!--The input element allows you several ways to collect data from a web form.-->
+                      <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+               </fieldset>
+               <fieldset>
+                   <legend>What's your cat's personality?</legend>
+                     <input id="loving" type="checkbox" name="personality" value="loving" checked> <label for="loving">Loving</label>
+                     <input id="lazy" type="checkbox" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+                     <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+               </fieldset>
+               <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+               <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+  </body>
+</html>  
