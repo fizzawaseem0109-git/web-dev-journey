@@ -15,8 +15,8 @@ HTML/CSS fundamentals to full-stack development.
 ### Phase 1: HTML & CSS Fundamentals
 - ✅ Day 1: HTML Basics — Cat Photo App
 - ✅ Day 2: CSS Basics — Cafe Menu
-- Day 3: CSS Colors — Colored Markers
-- Day 4: HTML Forms — Registration Form
+- ✅ Day 3: CSS Colors — Colored Markers
+- ✅ Day 4: HTML Forms — Registration Form
 
 ## 🛠️ Tech Stack (learning)
 HTML • CSS • JavaScript • React • Node.js • MongoDB
