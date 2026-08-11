@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">University Survey Form</h1>
+    <p id="description">Please fill out this form with the required information</p>
+
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Name
+          <input id="name" name="name" type="text" placeholder="Enter your name" required>
+        </label>
+        <label id="email-label" for="email">Email
+          <input id="email" name="email" type="email" placeholder="Enter your email" required>
+        </label>
+        <label id="number-label" for="number">Age (optional)
+          <input id="number" name="age" type="number" min="1" max="120" placeholder="Enter your age">
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Which best describes your current role?</legend>
+        <label for="dropdown">
+          <select id="dropdown" name="role">
+            <option value="">(select current role)</option>
+            <option value="student">Student</option>
+            <option value="fulltime">Full time job</option>
+            <option value="halftime">Half time job</option>
+            <option value="prefer-not-say">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Would you recommend university to a friend?</legend>
+        <label for="Definitely"><input id="Definitely" type="radio" name="recommend" value="Definitely" class="inline"  checked> Definitely</label>
+        <label for="Maybe"><input id="Maybe" type="radio" name="recommend" value="Maybe" class="inline" > Maybe</label>
+        <label for="Not-sure"><input id="Not-sure" type="radio" name="recommend" value="Not sure" class="inline" > Not sure</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>What did you like most about university? (check all that apply)</legend>
+        <label for="teaching"><input id="teaching" type="checkbox" name="liked" value="Teaching quality" class="inline" > Teaching quality</label>
+        <label for="facilities"><input id="facilities" type="checkbox" name="liked" value="Campus facilities" class="inline" > Campus facilities</label>
+        <label for="social"><input id="social" type="checkbox" name="liked" value="Social life" class="inline" > Social life</label>
+      </fieldset>
+       <label for="bio">Any Suggestion:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Enter your comment here..."></textarea>
+        </label>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </body>
+</html>

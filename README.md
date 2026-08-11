@@ -5,7 +5,7 @@ This repo tracks my daily practice, projects, and progress as I go from
 HTML/CSS fundamentals to full-stack development.
 
 ## 🏆 Certification Projects (freeCodeCamp)
-- [ ] Survey Form
+- [x] Survey Form
 - [ ] Tribute Page
 - [ ] Technical Documentation Page
 - [ ] Product Landing Page
@@ -17,6 +17,7 @@ HTML/CSS fundamentals to full-stack development.
 - ✅ Day 2: CSS Basics — Cafe Menu
 - ✅ Day 3: CSS Colors — Colored Markers
 - ✅ Day 4: HTML Forms — Registration Form
+- ✅ Day 5: survey Form
 
 ## 🛠️ Tech Stack (learning)
 HTML • CSS • JavaScript • React • Node.js • MongoDB
